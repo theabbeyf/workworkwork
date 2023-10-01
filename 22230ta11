@@ -1,0 +1,120 @@
+<TopicAssessment paperSize="A4" language="English" version="2.19.0">
+  <QuestionsGroup title="5.11 Solve by factorisation FLUENCY">
+    <Question
+      label="4"
+      linkedExamples={['1']}
+      conversionMetadata="68176 1999927376 2020-05-17"
+    >
+      <Text>Solve using the Null Factor Law:</Text>
+
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="x \left(x + 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 0\,,- 7 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x \left( 2 x - 9\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 0\,,\dfrac{9}{2}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="4 m \left(m + 5\right) = 0" />
+          </Text>
+
+          {/* #answer <Latex expression="m = 0\,, - 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\dfrac{m}{2} \left(m + 5\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="m = 0\,, - 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="b \left( 10 b - 90\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="b = 0\,, 9" /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="5" linkedExamples={['2']}>
+      <Text>Solve using the Null Factor Law:</Text>
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="\left(x - 5\right) \left(x + 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 5\,,- 7 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 8 x - 5\right) \left( 3 x - 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{5}{8}\,, \dfrac{7}{3}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 3 x + 8\right) \left( 5 x - 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x =  - \dfrac{8}{3}\,,\dfrac{7}{5}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 3 x - 17\right) \left( 2 x - d\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{17}{3}\,,\dfrac{d}{2} " /> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.11 Solve by factorisation REASONING">
+    <Question label="13">
+      <Text>
+        Explain why the quadratic equation cannot be factorised using integers.
+      </Text>
+      <Latex displayMode expression="x^2 - 4x + 5=0" />
+
+      {/* #answer <Text>
+                          The quadratic equation cannot be factorised using integers because there
+                          are no two integers that multiply to <Latex expression="5" /> and add to{' '}
+                          <Latex expression="-4" />.
+                         </Text> */}
+    </Question>
+    {/* Added */}
+    <Question label="14">
+      <Text>
+        Identify the error in the factoring attempt and explain the correct
+        approach.
+      </Text>
+      <AlgebraicWorking useRowNumbering>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement lhs="x^2 + 5x + 6" relation="=" rhs="0" />
+        </AlgebraicWorkingRow>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement
+            lhs="(x + 1)(x + 5)"
+            relation="="
+            rhs="0"
+          />
+          <AlgebraicWorkingExplanation>Factorise</AlgebraicWorkingExplanation>
+        </AlgebraicWorkingRow>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement lhs="x" relation="=" rhs="-5,-1" />
+          <AlgebraicWorkingExplanation>
+            Solve for <Latex expression="x" />
+          </AlgebraicWorkingExplanation>
+        </AlgebraicWorkingRow>
+      </AlgebraicWorking>
+      {/* #answer   <Text>
+                         The error is in Step 2. The correct factoring should be{' '}
+                          <Latex expression="(x + 2)(x + 3)" />. The numbers in the factors must add to 5 and multiply to 6, not the other way around.
+                         </Text> */}
+    </Question>
+  </QuestionsGroup>
+</TopicAssessment>;
