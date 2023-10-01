@@ -1,0 +1,3609 @@
+<TopicAssessment paperSize="A4" language="English" version="2.19.0">
+  <QuestionsGroup title="5.01 Quadratic relationships FLUENCY">
+    <Question
+      linkedExamples={['1']}
+      label="4"
+      conversionMetadata="20854 849155592 2020-12-31"
+    >
+      <Text>
+        Which of these equations represent a quadratic relationship between{' '}
+        <Latex expression="x" /> and <Latex expression="y" />?
+      </Text>
+
+      <Parts columns={2}>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="2 x -  3 y - 2 = 0" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y =  2 x^{2} -  3 x - 2" />
+          </Text>
+          {/* #answer <Text>Yes</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y =  5 x^{3} - x^{2}" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y =  2 x - 3" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y = \left(x^{2} - 3\right)^{2}" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y = 1 -  3 x -  5 x^{2}" />
+          </Text>
+          {/* #answer <Text>Yes</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="6 x^{2} -  2 x + 7" />
+          </Text>
+          {/* #answer 
+                                      
+                                     <Text>No</Text>  
+                                     */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y=\sqrt{x^{2} +  3 x - 4}" />
+          </Text>
+          {/* #answer 
+                                      
+                                     <Text>No</Text>  
+                                     */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y=\dfrac{1}{4 x^{2} -  6 x - 6}" />
+          </Text>
+          {/* #answer 
+                                      
+                                     <Text>No</Text>  
+                                     */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y=x^{2} + \dfrac{1}{x}" />
+          </Text>
+          {/* #answer 
+                                      
+                                     <Text>No</Text>  
+                                     */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y = x^{2} +  4 x" />
+          </Text>
+          {/* #answer <Text>Yes</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y = \dfrac{5}{x^{2}}" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression=" 1 - x^{2}=y" />
+          </Text>
+          {/* #answer <Text>Yes</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y = \left(x^{2} - 1\right)^{3}" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y = x^{2} + \dfrac{2}{x}" />
+          </Text>
+          {/* #answer <Text>No</Text> */}
+        </Part>
+        <Part>
+          {' '}
+          <Text>
+            <Latex expression="y =  2 x^{2}" />
+          </Text>
+          {/* #answer <Text>Yes</Text> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.01 QUADRATIC RELATIONSHIPS PROBLEM-SOLVING">
+    <Question moveToNextPrintedPage label="15">
+      <Text>Consider the table shown:</Text>
+      <TabularData
+        rowTitles={['x', 'y']}
+        rowTitlesAs="latex"
+        rowData={[
+          ['-2', '-1', '0', '1', '2'],
+          ['16', '4', '0', '4', '16'],
+        ]}
+        rowDataAs="latex"
+      />
+
+      <Parts columns={1}>
+        <Part>
+          Describe the pattern of the output in words.
+          {/* #answer  <Text>
+            To find the <LatexTextAtom expression="y" text="-values" /> find the
+            square of <LatexTextAtom expression="x" text="-values" />, and then
+            multiply the result by <Latex expression="4" />.
+          </Text> */}
+        </Part>
+        <Part>
+          Determine if the rule would be a linear or quadratic relationship.
+          {/* #answer Quadratic */}
+        </Part>
+        <Part>
+          Write the rule that relates <Latex expression="x" /> and{' '}
+          <Latex expression="y" />.
+          {/* #answer <Latex expression="y=4x^{2}" /> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.02 Graphs and features of quadratics FLUENCY">
+    <Question label="11">
+      <Text>For each function:</Text>
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>Graph the function.</Text>
+        </Part>
+        <Part label="ii"> Find the equation for the axis of symmetry.</Part>
+        <Part label="iii"> Find the turning point.</Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y = 2x^2" />
+
+          {/* #answer <Parts columns={1}>
+                            <Part>
+                              {' '}
+                              <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                  min: -3,
+                                  max: 3,
+                                  scale: 1,
+                                  interval: 1,
+                                  intervalSubdivisions: 1,
+                                  unit: '',
+                                  numberFormat: 'decimal',
+                                  label: 'x',
+                                }}
+                                yAxis={{
+                                  min: -1,
+                                  max: 9,
+                                  scale: 1,
+                                  interval: 1,
+                                  intervalSubdivisions: 1,
+                                  unit: '',
+                                  numberFormat: 'decimal',
+                                  label: 'y',
+                                }}
+                              >
+                                <FunctionPlot
+                                  f={(x) => 2 * x * x}
+                                  domain={[-3, 3]}
+                                  color="mountainMeadow"
+                                />
+                              </CartesianPlane>
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                Axis of symmetry: <Latex expression="x = 0" />
+                              </Text>
+                            </Part>
+                            <Part >
+                              {' '}
+                              Turning point: <Latex expression="(0, 0)" />
+                            </Part>
+                            <Part >
+                             <Text>
+                              <LatexTextAtom expression="x" text="-intercept:" />{' '}
+                              <Latex expression="(0, 0)" /></Text>
+                           <Text>
+                              <LatexTextAtom expression=" y " text="-intercept:" />
+                              <Latex expression="(0, 0)" /></Text>
+                            </Part>
+                           </Parts>  */}
+        </Part>
+        <Part>
+          <Latex expression="y = x^2 - 1" />
+          {/* #answer
+             <Parts columns={1}>
+                            <Part>
+                              {' '}
+                              <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                  min: -3,
+                                  max: 3,
+                                  scale: 1,
+                                  interval: 1,
+                                  intervalSubdivisions: 1,
+                                  unit: '',
+                                  numberFormat: 'decimal',
+                                  label: 'x',
+                                }}
+                                yAxis={{
+                                  min: -2,
+                                  max: 8,
+                                  scale: 1,
+                                  interval: 1,
+                                  intervalSubdivisions: 1,
+                                  unit: '',
+                                  numberFormat: 'decimal',
+                                  label: 'y',
+                                }}
+                              >
+                                <FunctionPlot
+                                  f={(x) => x * x - 1}
+                                  domain={[-3, 3]}
+                                  color="mountainMeadow"
+                                />
+                              </CartesianPlane>
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                Axis of symmetry: <Latex expression="x = 0" />
+                              </Text>
+                            </Part>
+                            <Part >
+                              {' '}
+                              Turning point: <Latex expression="(0, -1)" />
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                <LatexTextAtom expression="x" text="-intercept:" />{' '}
+                                <Latex expression="(-1, 0)" /> and <Latex expression="(1, 0)" />
+                              </Text>
+                        
+                           <Text>
+                              <LatexTextAtom expression=" y " text="-intercept:" />
+                              <Latex expression="(0, -1)" /></Text>
+                            </Part>
+                           </Parts>
+                            
+             */}
+        </Part>
+        <Part>
+          <Latex expression="y = -x^2 " />
+          {/* #answer 
+             <Parts columns={1}> 
+             <Part >
+                              {' '}
+                               <CartesianPlane
+                            width={260}
+                            height={260}
+                            xAxis={{
+                              min: -3,
+                              max: 3,
+                              scale: 1,
+                              interval: 1,
+                              intervalSubdivisions: 1,
+                              unit: '',
+                              numberFormat: 'decimal',
+                              label: 'x',
+                            }}
+                            yAxis={{
+                              min: -9,
+                              max: 1,
+                              scale: 1,
+                              interval: 1,
+                              intervalSubdivisions: 1,
+                              unit: '',
+                              numberFormat: 'decimal',
+                              label: 'y',
+                            }}
+                           >
+                            <FunctionPlot
+                              f={(x) => -x * x}
+                              domain={[-3, 3]}
+                              color="mountainMeadow"
+                            />
+                           </CartesianPlane>
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                Axis of symmetry: <Latex expression="x = 0" />
+                              </Text>
+                            </Part>
+                            <Part >
+                              {' '}
+                              Turning point: <Latex expression="(0, 0)" />
+                            </Part>
+                            <Part >
+                           <Text>
+                              <LatexTextAtom expression="x" text="-intercept:" />{' '}
+                              <Latex expression="(0, 0)" /></Text>
+                           <Text>
+                              <LatexTextAtom expression=" y " text="-intercept:" />
+                              <Latex expression="(0, 0)" /></Text>
+                            </Part>
+                           </Parts> 
+             */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y = 4 - x^2" />
+          </Text>
+
+          {/* #answer <Parts columns={1}>
+                            <Part label='a'>
+                              {' '}
+                                  <CartesianPlane
+                            width={260}
+                            height={260}
+                            xAxis={{
+                              min: -3,
+                              max: 3,
+                              scale: 1,
+                              interval: 1,
+                              intervalSubdivisions: 1,
+                              unit: '',
+                              numberFormat: 'decimal',
+                              label: 'x',
+                            }}
+                            yAxis={{
+                              min: -1,
+                              max: 5,
+                              scale: 1,
+                              interval: 1,
+                              intervalSubdivisions: 1,
+                              unit: '',
+                              numberFormat: 'decimal',
+                              label: 'y',
+                            }}
+                           >
+                            <FunctionPlot
+                              f={(x) => 4 - x * x}
+                              domain={[-3, 3]}
+                              color="mountainMeadow"
+                            />
+                           </CartesianPlane>
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                Axis of symmetry: <Latex expression="x = 0" />
+                              </Text>
+                            </Part>
+                            <Part >
+                              {' '}
+                              Turning point: <Latex expression="(0, 4)" />
+                            </Part>
+                            <Part >
+                              {' '}
+                              <Text>
+                                <LatexTextAtom expression="x" text="-intercepts:" />{' '}
+                                <Latex expression="(-2, 0)" /> and <Latex expression="(2, 0)" />
+                              </Text>
+                            
+                            <Text>
+                              <LatexTextAtom expression=" y " text="-intercept:" />
+                              <Latex expression="(0, 4)" /></Text>
+                            </Part>
+                           </Parts>*/}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.02 Graphs and features of quadratics  PROBLEM-SOLVING">
+    <Question label="23">
+      <Text>
+        In a science experiment a substance is heated up over a flame and
+        cooled.{' '}
+      </Text>
+      <Text>
+        The graph shows the temperature <Latex expression="(c) " />
+        change over time in hours <Latex expression="(h)" />. Use the graph to
+        approximate answers to the following.
+      </Text>
+      <TwoColumn>
+        <Column>
+          <Parts columns={1}>
+            <Part>
+              {' '}
+              What was the initial temperature?
+              {/* #answer 
+                 <Text><Latex expression="-54\degree" />C</Text> */}
+            </Part>
+            <Part>
+              When did the temperature reach <Latex expression="0\degree" />
+              C?
+              {/* #answer 
+                 <Text>At <Latex expression="h=3" /> hours and <Latex expression="h=18" /> hours</Text> */}
+            </Part>
+            <Part>
+              What was the maximum temperature reached?
+              {/* #answer 
+                 <Text><Latex expression="\approx 56.25\degree" />C</Text> */}
+            </Part>
+            <Part>
+              Did the temperature rise and fall at similar rates?
+              {/* #answer 
+                 <Text>Yes</Text> */}
+            </Part>
+            <Part>
+              When did the temperature reach room temperature (
+              <LatexTextAtom expression="18 \degree" text="C" />
+              )?
+              {/* #answer 
+                 <Text>At <Latex expression="h\approx 4.3" /> hours and <Latex expression="h\approx 16.7" /> hours. </Text> */}
+            </Part>
+          </Parts>
+        </Column>
+        <Column>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: 0,
+              max: 22,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'h',
+            }}
+            yAxis={{
+              min: -60,
+              max: 60,
+              scale: 1,
+              interval: 10,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'c',
+            }}
+          >
+            <FunctionPlot f={(x) => -1 * x ** 2 + 21 * x - 54} />
+          </CartesianPlane>
+        </Column>
+      </TwoColumn>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.03 Basic quadratics FLUENCY">
+    <Question label="9">
+      <Text>Match each description to the equation.</Text>
+      <Parts columns={4}>
+        <Part label="i">
+          <Latex expression="y=-2x^2" />
+        </Part>
+        <Part label="ii">
+          <Latex expression="y=\dfrac{1}{2} x^2" />
+        </Part>
+        <Part label="iii">
+          <Latex expression="y=2x^2" />
+        </Part>
+        <Part label="iv">
+          <Latex expression="y=x^2" />
+        </Part>
+      </Parts>
+      <Parts columns={1}>
+        <Part>
+          <Text>
+            Narrower than <Latex expression="y=x^2" />, a reflection of{' '}
+            <Latex expression="y=x^2" /> on the{' '}
+            <LatexTextAtom expression="x" text="-axis." />
+          </Text>
+          {/*#answer <Text><Latex expression="y=-2x^2" /></Text>*/}
+        </Part>
+        <Part>
+          <Text>
+            Wider than <Latex expression="y=x^2" />, shares the same turning
+            point as <Latex expression="y=x^2" />.
+          </Text>
+          {/*#answer <Text><Latex expression="y=\dfrac{1}{2}x^2" /></Text>*/}
+        </Part>
+        <Part>
+          <Text>
+            Narrower than <Latex expression="y=\dfrac{1}{2} x^2" /> but wider
+            than <Latex expression="y=2x^2" />. Has the same{' '}
+            <LatexTextAtom expression="x" text="-intercept" /> as{' '}
+            <Latex expression="y=2x^2" />.
+          </Text>
+          {/*#answer <Text><Latex expression="y=x^2" /></Text>*/}
+        </Part>
+        <Part>
+          <Text>
+            Same vertical enlargement as part (a) and is a reflection of part
+            (a) on the <LatexTextAtom expression="x" text="-axis." />
+          </Text>
+          {/*#answer <Text><Latex expression="y=2x^2" /></Text>*/}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="10">
+      <Text>
+        Each of the graphs shown have an equation of the form{' '}
+        <Latex expression="y=ax^2" />. By using a point on the graph, find the
+        value of <Latex expression="a" />, and hence the equation of each graph.
+      </Text>
+      <Parts columns={2}>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => 4 * x ** 2} />
+          </CartesianPlane>
+          {/*#answer <Latex expression="y=4x^2" />*/}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => 0.2 * x ** 2} />
+          </CartesianPlane>
+          {/*#answer <Latex expression="y=\dfrac{1}{5}x^2" />*/}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -7,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -(1 / 3) * x ** 2} />
+          </CartesianPlane>
+          {/*#answer <Latex expression="y=-\dfrac{1}{3}x^2" />*/}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -6,
+              max: 6,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -7,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -1.5 * x ** 2} />
+          </CartesianPlane>
+          {/*#answer <Latex expression="y=-\dfrac{3}{2}x^2" />*/}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.04 Vertical translations FLUENCY">
+    <Question linkedExamples={['1b']} label="7">
+      <Text>
+        Identify the vertical translation amount and direction from{' '}
+        <Latex expression="y=-x^2" />, for these equations:
+      </Text>
+      <Parts columns={4}>
+        <Part>
+          <Latex expression=" y=-x^2 + 4" />
+          {/* #answer <Text><Latex expression="4" /> units upwards</Text> */}
+        </Part>
+        <Part>
+          <Latex expression="y=-x^2 +2" />
+          {/* #answer <Text><Latex expression="2" /> units upwards</Text> */}
+        </Part>
+        <Part>
+          <Latex expression="  y=-x^2 -3" />
+          {/* #answer <Text><Latex expression="3" /> units downwards</Text> */}
+        </Part>
+        <Part>
+          <Latex expression=" y=-x^2 -1" />
+          {/* #answer <Text><Latex expression="1" /> unit downward </Text> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.04 Vertical trnslations PROBLEM-SOLVING">
+    <Question label="17">
+      <Text>
+        A toy rocket is launched vertically from an elevated platform. The
+        height (<Latex expression="h" />) of the rocket above the ground can be
+        modelled by the equation <Latex expression="h = -4t^2 + 30" />, where{' '}
+        <Latex expression="h" /> is the height in metres and{' '}
+        <Latex expression="t" /> is the time in seconds. The rocket launches
+        from a platform that is <Latex expression="10" /> metres above the
+        ground.
+      </Text>
+      <Parts columns={1}>
+        <Part>
+          <Text>
+            How does the vertical translation of <Latex expression="10" />{' '}
+            metres affect the equation modeling the toy rocket's height? What is
+            the new equation?
+          </Text>
+
+          {/* #answer  <Text>
+             The vertical translation of <Latex expression="10" /> metres means
+             that the initial height of the toy rocket is{' '}
+             <Latex expression="10" /> metres above the ground. To include this
+             in the equation, we need to add <Latex expression="10" />{' '}
+             to the original height equation:{' '}
+             <Latex expression="h = -4t^2 + 30 + 10" />. The new equation becomes{' '}
+             <Latex expression="h = -4t^2 + 40" />. </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Using the new equation, find the maximum height the toy rocket
+            reaches above the ground.
+          </Text>
+          {/* #answer <Text><Latex expression="40" /> metres</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Calculate the time it takes for the toy rocket to return to the
+            ground. Round your answer to two decimal places.
+          </Text>
+          {/* #answer <Text><Latex expression="3.16" /> seconds</Text> */}
+        </Part>
+        <Part>
+          <Text>Sketch a graph showing the movement of the toy rocket.</Text>
+
+          {/* #answer    <CartesianPlane
+             width={260}
+             height={260} 
+             xAxis={{
+               min: 0,
+               max: 5,
+               scale: 1,
+               interval: 1,
+               intervalSubdivisions: 1,
+               unit: "",
+               numberFormat: "decimal",
+               label: "t \\text{ (seconds)}",
+             }}  
+             yAxis={{
+               min: 0,
+               max: 45,
+               scale: 1,
+               interval: 5,
+               intervalSubdivisions: 1,
+               unit: "",
+               numberFormat: "decimal",
+               label: "h \\text{ (metres)}",
+             }}
+            >
+            <FunctionPlot f={x => -1*4*x**2+40} />
+             
+            </CartesianPlane> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.05 Horizontal translations">
+    <Question label="7" linkedExamples={['1a']}>
+      <Text>
+        Identify the horizontal translation amount and direction from{' '}
+        <Latex expression="y=x^2" />, for these graphs:
+      </Text>
+      <Parts columns={2}>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -4,
+              max: 8,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -3,
+              max: 8,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (x - 3) ** 2} color="lochmara" />
+            <FunctionPlot f={(x) => x ** 2} color="mountainMeadow" dashed />
+          </CartesianPlane>
+          {/* #answer <Text><Latex expression="3" /> units right</Text> */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -6,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -3,
+              max: 8,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (x + 1) ** 2} color="lochmara" />
+            <FunctionPlot f={(x) => x ** 2} color="mountainMeadow" dashed />
+          </CartesianPlane>
+          {/* #answer <Text><Latex expression="1" /> unit left</Text> */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -5,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -4,
+              max: 8,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (-(x - 1)) ** 2} color="lochmara" />
+            <FunctionPlot f={(x) => x ** 2} color="mountainMeadow" dashed />
+          </CartesianPlane>
+          {/* #answer <Text><Latex expression="1" /> unit right</Text> */}
+        </Part>
+
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -8,
+              max: 4,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -4,
+              max: 8,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (-(x + 5)) ** 2} color="lochmara" />
+            <FunctionPlot f={(x) => x ** 2} color="mountainMeadow" dashed />
+          </CartesianPlane>
+          {/* #answer <Text><Latex expression="5" /> units left</Text> */}
+        </Part>
+      </Parts>
+    </Question>
+
+    <Question label="11" linkedExamples={['2a']}>
+      <Text>
+        {' '}
+        Write the equation of the quadratic function that has the form{' '}
+        <Latex expression="y=(x-h)^2" /> using the description of the horizontal
+        translation from the base <Latex expression="y= x^{2}" />.
+      </Text>
+      <Parts columns={1}>
+        <Part>
+          <Text>
+            Horizontally translated left <Latex expression="7" /> units
+          </Text>
+          {/* #answer  <Text>
+                               <Latex expression="y = \left(x + 7\right)^{2}" />
+                              </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Horizontally translated right <Latex expression="13" /> units
+          </Text>
+          {/* #answer  <Text>
+                               <Latex expression="y = \left(x - 13\right)^{2}" />
+                              </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Horizontally translated left <Latex expression="\dfrac{3}{7}" />{' '}
+            units
+          </Text>
+          {/* #answer <Text>
+                               <Latex expression="y = \left(x + \dfrac{3}{7}\right)^{2}" />
+                              </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Horizontally translated right <Latex expression="4.6" /> units
+          </Text>
+          {/* #answer  <Text>
+                               <Latex expression="y = \left(x - 4.6\right)^{2}" />
+                              </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Horizontally translated <Latex expression="3" /> units left and has
+            a vertical reflection across the <Latex expression="x" />
+            -axis
+          </Text>
+          {/* #answer  <Text>
+                               <Latex expression="y = -\left(x +3\right)^{2}" />
+                              </Text> */}
+        </Part>
+        <Part>
+          <Text>
+            Horizontally translated <Latex expression="2" /> units right and has
+            a vertical reflection across the <Latex expression="x" />
+            -axis
+          </Text>
+          {/* #answer <Text>
+                               <Latex expression="y = -\left(x - 2 \right)^{2}" />
+                              </Text> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.06 Turning point form fluency">
+    <Question label="11">
+      <Text>For each quadratic equation:</Text>
+
+      <Parts columns={2}>
+        <Part label="i">
+          <Text>What is the turning point?</Text>
+        </Part>
+
+        <Part label="ii">
+          What is the <LatexTextAtom expression="y" text="-intercept?" />
+        </Part>
+        <Part label="iii">What is the axis of symmetry?</Part>
+        <Part label="iv">Will the graph be concave up or down?</Part>
+        <Part label="v">
+          <Text>Sketch the graph.</Text>
+        </Part>
+      </Parts>
+
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y  = 2\left(x - 3\right)^{2}+7" />
+
+          {/* #answer    
+                               <Parts columns={1}>
+               <Part label="i">
+               {' '}
+               <Latex expression="\left(3,7\right)" />
+               </Part>
+               <Part label="ii">
+               <Text>
+                <Latex expression="(0,25)" />
+               </Text>
+               </Part>
+               <Part label="iii">
+               <Latex expression="x = 3" />
+               </Part>
+               <Part label="iv">
+               <Text>Concave up</Text>
+               </Part>
+               <Part label="v">
+                 <CartesianPlane
+              width={260}
+              height={260} 
+              xAxis={{
+                min: -3,
+                max: 10,
+                scale: 1,
+                interval: 1,
+                intervalSubdivisions: 1,
+                unit: "",
+                numberFormat: "decimal",
+                label: "x",
+              }}  
+              yAxis={{
+                min: -1,
+                max: 35,
+                scale: 1,
+                interval: 5,
+                intervalSubdivisions: 5,
+                unit: "",
+                numberFormat: "decimal",
+                label: "y",
+              }}
+             >
+              <FunctionPlot f={x => 2*(x-3)**2+7} />
+             </CartesianPlane>
+               </Part>
+               </Parts>*/}
+        </Part>
+        <Part>
+          <Latex expression="y=-3(x+1)^2+4" />
+          {/* #answer  
+             <Parts columns={1}>
+               <Part label="i">
+               {' '}
+               <Latex expression="\left(-1,4\right)" />
+               </Part>
+               <Part label="ii">
+               <Text>
+                <Latex expression="(0,-1)" />
+               </Text>
+               </Part>
+               <Part label="iii">
+               <Latex expression="x = -1" />
+               </Part>
+               <Part label="iv">
+               <Text>Concave down</Text>
+               </Part>
+               <Part label="v">
+               <CartesianPlane
+                width={260}
+                height={260}
+                xAxis={{
+                  min: -5,
+                  max: 5,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 1,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'x',
+                }}
+                yAxis={{
+                  min: -2,
+                  max: 7,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 1,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'y',
+                }}
+               >
+                <FunctionPlot f={(x) => -3* (x + 1) ** 2 + 4} />
+               </CartesianPlane>
+               </Part>
+               </Parts> 
+                     */}
+        </Part>
+        <Part>
+          <Latex expression="y=-2(x-1)^2-1" />
+          {/* #answer 
+             <Parts columns={1}>
+               <Part label="i">
+               {' '}
+               <Latex expression="\left(1,-1\right)" />
+               </Part>
+               <Part label="ii">
+               <Text>
+                <Latex expression="(0,-3)" />
+               </Text>
+               </Part>
+               <Part label="iii">
+               <Latex expression="x = 1" />
+               </Part>
+               <Part label="iv">
+               <Text>Concave down</Text>
+               </Part>
+               <Part label="v">
+               <CartesianPlane
+                width={260}
+                height={260}
+                xAxis={{
+                  min: -5,
+                  max: 5,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 1,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'x',
+                }}
+                yAxis={{
+                  min: -10,
+                  max: 5,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 2,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'y',
+                }}
+               >
+                <FunctionPlot f={(x) => -2*(x - 1) ** 2 - 1} />
+               </CartesianPlane>
+               </Part>
+               </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y= 0.5 (x+4)^2+ 8" />
+
+          {/* #answer  
+             <Parts columns={1}>
+              <Part label="i">
+                {' '}
+                <Latex expression="\left(-4,8\right)" />
+              </Part>
+              <Part label="ii">
+                <Text>
+                  <Latex expression="(0,10)" />
+                </Text>
+              </Part>
+              <Part label="iii">
+                <Latex expression="x = -4" />
+              </Part>
+              <Part label="iv">
+                <Text>Concave up</Text>
+              </Part>
+              <Part label="v">
+                <CartesianPlane
+                  width={260}
+                  height={260}
+                  xAxis={{
+                    min: -9,
+                    max: 5,
+                    scale: 1,
+                    interval: 1,
+                    intervalSubdivisions: 1,
+                    unit: '',
+                    numberFormat: 'decimal',
+                    label: 'x',
+                  }}
+                  yAxis={{
+                    min: -4,
+                    max: 20,
+                    scale: 1,
+                    interval: 2,
+                    intervalSubdivisions: 2,
+                    unit: '',
+                    numberFormat: 'decimal',
+                    label: 'y',
+                  }}
+                >
+                  <FunctionPlot f={(x) => 0.5 * (x + 4) ** 2 + 8} />
+                </CartesianPlane>
+              </Part>
+             </Parts>*/}
+        </Part>
+        <Part>
+          <Latex expression="y= 5(x-0.2)^2-0.7" />
+          {/* #answer 
+                      
+                          <Parts columns={1}>
+                         <Part label="i">
+                         {' '}
+                         <Latex expression="\left(0.2,-0.7\right)" />
+                         </Part>
+                         <Part label="ii">
+                         <Text>
+                          <Latex expression="(0,-0.5)" />
+                         </Text>
+                         </Part>
+                         <Part label="iii">
+                         <Latex expression="x = 0.2" />
+                         </Part>
+                         <Part label="iv">
+                         <Text>Concave up</Text>
+                         </Part>
+                         <Part label="v">
+                         <CartesianPlane
+                          width={260}
+                          height={260}
+                          xAxis={{
+                            min: -1,
+                            max: 1,
+                            scale: 1,
+                            interval: 0.2,
+                            intervalSubdivisions: 1,
+                            unit: '',
+                            numberFormat: 'decimal',
+                            label: 'x',
+                          }}
+                          yAxis={{
+                            min: -1,
+                            max: 1,
+                            scale: 1,
+                            interval: 0.2,
+                            intervalSubdivisions: 2,
+                            unit: '',
+                            numberFormat: 'decimal',
+                            label: 'y',
+                          }}
+                         >
+                          <FunctionPlot f={(x) => 5*(x-0.2)**2-0.7 } />
+                         </CartesianPlane>
+                         </Part>
+                         </Parts>*/}
+        </Part>
+
+        <Part>
+          <Latex expression="y= -(4+x)^2 +\dfrac{1}{2}" />
+          {/* #answer 
+                         <Parts columns={1}>
+               <Part label="i">
+               {' '}
+               <Latex expression="\left(-4,\dfrac{1}{2}\right)" />
+               </Part>
+               <Part label="ii">
+               <Text>
+                <Latex expression="(0,-\dfrac{31}{2})" />
+               </Text>
+               </Part>
+               <Part label="iii">
+               <Latex expression="x = -4" />
+               </Part>
+               <Part label="iv">
+               <Text>Concave down</Text>
+               </Part>
+               <Part label="v">
+               <CartesianPlane
+                width={260}
+                height={260}
+                xAxis={{
+                  min: -10,
+                  max: 1,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 1,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'x',
+                }}
+                yAxis={{
+                  min: -20,
+                  max: 10,
+                  scale: 1,
+                  interval: 2,
+                  intervalSubdivisions: 1,
+                  unit: '',
+                  numberFormat: 'decimal',
+                  label: 'y',
+                }}
+               >
+                <FunctionPlot f={(x) => -1*(x+4)**2+(1/2) } />
+               </CartesianPlane>
+               </Part>
+               </Parts>
+                    */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.06 Turning point form problem-solving">
+    <Question label="22">
+      <Text>
+        {' '}
+        A gardener is planting flowers in a rectangular garden. The area of the
+        garden, A, is given by the equation{' '}
+        <LatexTextAtom
+          expression="A(x) = -4(x - 3)^2 + 36"
+          text=","
+        /> where <Latex expression="x" /> is the width of the garden in metres.
+        Find the width of the garden that maximizes the area, calculate the
+        maximum area, and determine the length of the garden corresponding to
+        this width.
+      </Text>
+
+      {/* #answer 
+         <Text>The width <Latex expression="x" /> of the garden that maximizes the area is <Latex expression="3\text{ m}" /></Text>
+         <Text>The maximum area is <Latex expression="36\text{ m}^2" />.</Text>
+         <Text>The length of the garden is <Latex expression="12\text{ m}" />.</Text>
+         */}
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.07 Factorised form FLUENCY">
+    <Question label="7" linkedExamples={['1']}>
+      <Text>For each graph:</Text>
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>
+            What are the <LatexTextAtom expression="x" text="-intercepts?" />
+          </Text>
+        </Part>
+        <Part label="ii">
+          <Text>
+            What is the <LatexTextAtom expression="y" text="-intercept?" />
+          </Text>
+        </Part>
+        <Part label="iii">
+          <Text>Write the equation of the parabola in factorised form.</Text>
+        </Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -3,
+              max: 7,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -5,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (x - 1) * (x - 4)} />
+          </CartesianPlane>
+          {/* #answer 
+                 <Parts columns={1}>
+                  <Part>
+                    <Latex expression="\left(1,0\right)" /> and <Latex expression="\left(4,0\right)" />
+                  </Part>
+                  <Part>
+                    <Latex expression="\left(0,4\right)" />
+                  </Part>
+                  <Part>
+                    <Latex expression="y=\left(x-1\right)\left(x-4\right)" />
+                  </Part>
+                 </Parts>*/}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -5,
+              max: 5,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -3,
+              max: 7,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -1 * (x - 3) * (x + 2)} />
+          </CartesianPlane>
+          {/* #answer 
+                 <Parts columns={1}>
+                  <Part>
+                    <Latex expression="\left(-2,0\right)" /> and <Latex expression="\left(3,0\right)" />
+                  </Part>
+                  <Part>
+                    <Latex expression="\left(0,6\right)" />
+                  </Part>
+                  <Part>
+                    <Latex expression="y=-\left(x+2\right)\left(x-3\right)" />
+                  </Part>
+                 </Parts>*/}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => x * (x + 2)} />
+          </CartesianPlane>
+          {/* #answer
+                    <Parts columns={1}>
+                     <Part label="i">
+                       <Text><Latex expression="\left(-2,0\right)" /> and <Latex expression="\left(0,0\right)" /></Text>
+                     </Part>
+                     <Part label="ii">
+                       <Latex expression="\left(0,0\right)" />
+                     </Part>
+                     <Part label="iii">
+                       <Latex expression="y= x\left(x+2\right)" />
+                     </Part>
+                     </Parts> */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -3,
+              max: 7,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 1,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -2,
+              max: 18,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => 2 * (x - 2) * (x - 3)} />
+          </CartesianPlane>
+          {/* #answer
+                 <Parts columns={1}>
+                   <Part label="i">
+                     <Text><Latex expression="\left(2,0\right)" /> and <Latex expression="\left(3,0\right)" /></Text>
+                   </Part>
+                   <Part label="ii">
+                     <Latex expression="\left(0,12\right)" />
+                   </Part>
+                   <Part label="iii">
+                     <Latex expression="y=2\left(x-2\right)\left(x-3\right)" />
+                   </Part>
+                   </Parts>
+                     */}
+        </Part>
+
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -(1 / 5) * (x - 2) * (x + 5)} />
+          </CartesianPlane>
+          {/* #answer
+                                <Parts columns={1}>
+                               <Part label="i">
+                                 <Text><Latex expression="\left(-5,0\right)" /> and <Latex expression="\left(2,\right)" /></Text>
+                               </Part>
+                               <Part label="ii">
+                                 <Latex expression="\left(0,2\right)" />
+                               </Part>
+                               <Part label="iii">
+                                 <Latex expression="y=-\dfrac{1}{5}\left(x-2\right)\left(x+5\right)" />
+                               </Part>
+                              </Parts>
+                                 */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -2 * (x - 2) * (x + 2)} />
+          </CartesianPlane>
+          {/* #answer
+                                <Parts columns={1}>
+                               <Part label="i">
+                                 <Text><Latex expression="\left(-2,0\right)" /> and <Latex expression="\left(2,0\right)" /></Text>
+                               </Part>
+                               <Part label="ii">
+                                 <Latex expression="\left(0,8\right)" />
+                               </Part>
+                               <Part label="iii">
+                                 <Latex expression="y=-2\left(x-2\right)\left(x+2\right)" />
+                               </Part>
+                              </Parts>
+                                 */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => (1 / 4) * (x - 6) * (x + 2)} />
+          </CartesianPlane>
+          {/* #answer
+                                <Parts columns={1}>
+                               <Part label="i">
+                                 <Text><Latex expression="\left(-2,0\right)" /> and <Latex expression="\left(6,0\right)" /></Text>
+                               </Part>
+                               <Part label="ii">
+                                 <Latex expression="\left(0,-3\right)" />
+                               </Part>
+                               <Part label="iii">
+                                 <Latex expression="y=\dfrac{1}{4}\left(x-6\right)\left(x+2\right)" />
+                               </Part>
+                              </Parts>
+                                 */}
+        </Part>
+        <Part>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: -10,
+              max: 10,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -(1 / 3) * (x - 6) * (x + 2)} />
+          </CartesianPlane>
+          {/* #answer
+                 <Parts columns={1}>
+                 <Part label="i">
+                   <Text><Latex expression="\left(-2,0\right)" /> and <Latex expression="\left(6,0\right)" /></Text>
+                 </Part>
+                 <Part label="ii">
+                   <Latex expression="\left(0,4\right)" />
+                 </Part>
+                 <Part label="iii">
+                   <Latex expression="y=-\dfrac{1}{3}\left(x-6\right)\left(x+2\right)" />
+                 </Part>
+                 </Parts> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="8" linkedExamples={['2']}>
+      <Text>For each quadratic equation:</Text>
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>
+            What is the <Latex expression="y" />
+            -intercept?
+          </Text>
+        </Part>
+        <Part label="ii">
+          <Text>
+            What are the <Latex expression="x" />
+            -intercepts?
+          </Text>
+        </Part>
+        <Part label="iii">
+          <Text>What is the axis of symmetry?</Text>
+        </Part>
+        <Part label="iv">
+          <Text>What are the coordinates of the turning point?</Text>
+        </Part>
+        <Part label="v">
+          <Text>Graph the parabola.</Text>
+        </Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y=\left(x-2\right)\left(x+4\right)" />
+          {/* #answer
+                     <Parts columns={1}>
+                       <Part><Latex expression="\left(0,-8\right)" /></Part>
+                       <Part><Latex expression="\left( 2,0 \right)" /> and <Latex expression="\left( -4,0 \right)" /></Part>
+                       <Part><Latex expression="x=-1" /></Part>
+                       <Part><Latex expression="\left( -1,-9 \right)" /></Part>
+                       <Part>
+                       <CartesianPlane
+                       width={260}
+                       height={260}
+                       xAxis={{
+                         min: -10,
+                         max: 10,
+                         scale: 1,
+                         interval: 2,
+                         intervalSubdivisions: 2,
+                         unit: '',
+                         numberFormat: 'decimal',
+                         label: 'x'
+                       }}
+                       yAxis={{
+                         min: -12,
+                         max: 8,
+                         scale: 1,
+                         interval: 2,
+                         intervalSubdivisions: 2,
+                         unit: '',
+                         numberFormat: 'decimal',
+                         label: 'y'
+                       }}
+                     >
+                       <FunctionPlot f={x => (x - 2) * (x + 4)} />
+                     </CartesianPlane>
+                       </Part>
+                     </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y=-\left(x+1\right)\left(x-1\right)" />
+          {/* #answer 
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0,1\right)" /></Part>
+                 <Part><Text><Latex expression="\left(-1,0\right)" /> and <Latex expression="\left(1,0\right)" /></Text></Part>
+                 <Part><Latex expression="x=0" /></Part>
+                 <Part><Latex expression="\left(0,1\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                 <FunctionPlot f={x => -(x+1)*(x-1)} />
+                </CartesianPlane></Part>
+                 </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y=\left(2-x\right)\left(x-4\right)" />
+
+          {/* #answer 
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0,-8\right)" /></Part>
+                 <Part><Text><Latex expression="\left(2,0\right)" /> and <Latex expression="\left(4,0\right)" /></Text></Part>
+                 <Part><Latex expression="x=3" /></Part>
+                 <Part><Latex expression="\left(3,1\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -2,
+                   max: 8,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -7,
+                   max: 3,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                 <FunctionPlot f={x => (2-x)*(x-4)} />
+                </CartesianPlane></Part>
+                 </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y=\left(x+3\right)\left(x-4\right)" />
+          {/* #answer 
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0,-12\right)" /></Part>
+                 <Part><Text><Latex expression="\left(-3,0\right)" /> and <Latex expression="\left(4,0\right)" /></Text></Part>
+                 <Part><Latex expression="x=\dfrac{1}{2}" /></Part>
+                 <Part><Latex expression="\left(\dfrac{1}{2},-\dfrac{49}{4}\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -4,
+                   max: 6,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -14,
+                   max: 2,
+                   scale: 1,
+                   interval: 2,
+                   intervalSubdivisions: 2,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                <FunctionPlot f={x => (x+3)*(x-4)} /> 
+                </CartesianPlane></Part>
+                 </Parts> */}
+        </Part>
+
+        <Part>
+          <Latex expression="y=-2\left(x-1\right)\left(x-5\right)" />
+          {/* #answer
+                   <Parts columns={1}>
+                     <Part><Latex expression="\left(0,-10\right)" /></Part>
+                     <Part><Latex expression="\left( 1,0 \right)" /> and <Latex expression="\left( 5,0 \right)" /></Part>
+                     <Part><Latex expression="x=3" /></Part>
+                     <Part><Latex expression="\left( 3,8 \right)" /></Part>
+                     <Part>
+                     <CartesianPlane
+                     width={260}
+                     height={260}
+                     xAxis={{
+                       min: -3,
+                       max: 9,
+                       scale: 1,
+                       interval: 1,
+                       intervalSubdivisions: 1,
+                       unit: '',
+                       numberFormat: 'decimal',
+                       label: 'x'
+                     }}
+                     yAxis={{
+                       min: -3,
+                       max: 9,
+                       scale: 1,
+                       interval: 1,
+                       intervalSubdivisions: 1,
+                       unit: '',
+                       numberFormat: 'decimal',
+                       label: 'y'
+                     }}
+                   >
+                     <FunctionPlot f={x => -2 * (x - 1) * (x - 5)} />
+                   </CartesianPlane>
+                     </Part>
+                   </Parts>
+                   */}
+        </Part>
+        <Part>
+          <Latex expression="y=-\left(x-3\right)\left(x-1\right)" />
+          {/* #answer
+                     <Parts columns={1}>
+                       <Part><Latex expression="\left(0,-3\right)" /></Part>
+                       <Part><Latex expression="\left( 1,0 \right)" /> and <Latex expression="\left( 3,0 \right)" /></Part>
+                       <Part><Latex expression="x=2" /></Part>
+                       <Part><Latex expression="\left( 2,1 \right)" /></Part>
+                       <Part>
+                       <CartesianPlane
+                       width={260}
+                       height={260}
+                       xAxis={{
+                         min: -5,
+                         max: 5,
+                         scale: 1,
+                         interval: 1,
+                         intervalSubdivisions: 1,
+                         unit: '',
+                         numberFormat: 'decimal',
+                         label: 'x'
+                       }}
+                       yAxis={{
+                         min: -5,
+                         max: 5,
+                         scale: 1,
+                         interval: 1,
+                         intervalSubdivisions: 1,
+                         unit: '',
+                         numberFormat: 'decimal',
+                         label: 'y'
+                       }}
+                     >
+                       <FunctionPlot f={x => -1 * (x - 3) * (x - 1)} />
+                     </CartesianPlane>
+                       </Part>
+                     </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y=3\left(x+2\right)\left(x-2\right)" />
+          {/* #answer
+                   <Parts columns={1}>
+                     <Part><Latex expression="\left(0, -12\right)" /></Part>
+                     <Part><Latex expression="\left( -2,0 \right)" /> and <Latex expression="\left( 2,0 \right)" /></Part>
+                     <Part><Latex expression="x=0" /></Part>
+                     <Part><Latex expression="\left( 0,-12 \right)" /></Part>
+                     <Part>
+                     <CartesianPlane
+                     width={260}
+                     height={260}
+                     xAxis={{
+                       min: -4,
+                       max: 4,
+                       scale: 1,
+                       interval: 1,
+                       intervalSubdivisions: 1,
+                       unit: '',
+                       numberFormat: 'decimal',
+                       label: 'x'
+                     }}
+                     yAxis={{
+                       min: -14,
+                       max: 4,
+                       scale: 1,
+                       interval: 2,
+                       intervalSubdivisions: 2,
+                       unit: '',
+                       numberFormat: 'decimal',
+                       label: 'y'
+                     }}
+                   >
+                     <FunctionPlot f={x => 3 * (x + 2) * (x - 2)} />
+                   </CartesianPlane>
+                     </Part>
+                   </Parts> */}
+        </Part>
+
+        <Part>
+          <Latex expression="y=4x\left(x-2\right)" />
+
+          {/* #answer 
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0,0\right)" /></Part>
+                 <Part><Text><Latex expression="\left(0,0\right)" /> and <Latex expression="\left(2,0\right)" /></Text></Part>
+                 <Part><Latex expression="x=1" /></Part>
+                 <Part><Latex expression="\left(1,-4\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                 <FunctionPlot f={x => 4*x*(x-2)} />
+                </CartesianPlane></Part>
+                 </Parts> */}
+        </Part>
+        <Part>
+          <Latex expression="y = \left(2x-4\right)\left(x+1\right)" />
+
+          {/*#answer <Parts columns={1}>
+                 <Part><Latex expression="\left(0,-4\right)" /></Part>
+                 <Part><Text><Latex expression="\left(-1,0\right)" /> and <Latex expression="\left(2,0\right)" /></Text></Part>
+                 <Part><Latex expression="x=\dfrac{1}{2}" /></Part>
+                 <Part><Latex expression="\left(\dfrac{1}{2},-\dfrac{9}{2}\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 2,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 2,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                 <FunctionPlot f={x => (2*x-4)*(x+1)} />
+                </CartesianPlane></Part>
+                </Parts>*/}
+        </Part>
+        <Part>
+          <Latex expression="y=\left(1-x\right)\left(4+x\right)" />
+
+          {/*#answer <Parts columns={1}>
+                 <Part><Latex expression="\left(0,4\right)" /></Part>
+                 <Part><Text><Latex expression="\left(-4,0\right)" /></Text> and <Latex expression="\left(1,0\right)" /></Part>
+                 <Part><Latex expression="x=-\dfrac{3}{2}" /></Part>
+                 <Part><Latex expression="\left(-\dfrac{3}{2},\dfrac{25}{4}\right)" /></Part>
+                 <Part><CartesianPlane
+                 width={260}
+                 height={260} 
+                 xAxis={{
+                   min: -6,
+                   max: 4,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "x",
+                 }}  
+                 yAxis={{
+                   min: -2,
+                   max: 8,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: "",
+                   numberFormat: "decimal",
+                   label: "y",
+                 }}
+                >
+                 <FunctionPlot f={x => (1-x)*(4+x)} />
+                </CartesianPlane></Part>
+                </Parts>*/}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.08 Standard form FLUENCY">
+    <Question
+      label="7"
+      linkedExamples={['1']}
+      conversionMetadata="49807 3640773407 2020-09-15"
+    >
+      <Text>For each quadratic:</Text>
+
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>
+            What is the <LatexTextAtom expression="y" text="-intercept?" />
+          </Text>
+        </Part>
+
+        <Part label="ii">
+          <Text>What is the equation of axis of symmetry?</Text>
+        </Part>
+
+        <Part label="iii">
+          <Text>What are the coordinates of the turning point?</Text>
+        </Part>
+
+        <Part label="iv">
+          <Text>Sketch the parabola.</Text>
+        </Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y = x^{2} -  2 x + 5" />
+          {/* #answer
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0, 5 \right) " /></Part>
+                 <Part><Latex expression=" x = 1 " /></Part>
+                 <Part><Latex expression="\left( 1 ,  4 \right)" /></Part>
+                 <Part>  <CartesianPlane
+               width={260}
+               height={260}
+               xAxis={{
+                 min: -8,
+                 max: 8,
+                 scale: 1,
+                 interval: 2,
+                 intervalSubdivisions: 2,
+                 unit: '',
+                 numberFormat: 'decimal',
+                 label: 'x'
+               }}
+               yAxis={{
+                 min: -4,
+                 max: 16,
+                 scale: 1,
+                 interval: 2,
+                 intervalSubdivisions: 2,
+                 unit: '',
+                 numberFormat: 'decimal',
+                 label: 'y'
+               }}
+             >
+               <FunctionPlot f={x => x ** 2 - 2 * x + 5} />
+             </CartesianPlane></Part>
+                 </Parts>
+                 */}
+        </Part>
+        <Part>
+          <Latex expression="y =  2 x^{2} +  24 x + 75" />
+          {/* #answer
+                 <Parts columns={1}>
+                 <Part><Latex expression="\left(0, 75 \right) " /></Part>
+                 <Part><Latex expression=" x = - 6 " /></Part>
+                 <Part><Latex expression="\left( - 6 ,  3 \right)" /></Part>
+                 <Part>  <CartesianPlane
+               width={260}
+               height={260}
+               xAxis={{
+                 min: -15,
+                 max: 6,
+                 scale: 1,
+                 interval: 2,
+                 intervalSubdivisions: 2,
+                 unit: '',
+                 numberFormat: 'decimal',
+                 label: 'x'
+               }}
+               yAxis={{
+                 min: -4,
+                 max: 90,
+                 scale: 1,
+                 interval: 10,
+                 intervalSubdivisions: 5,
+                 unit: '',
+                 numberFormat: 'decimal',
+                 label: 'y'
+               }}
+             >
+               <FunctionPlot f={x => 2 * x ** 2 + 24 * x + 75} />
+             </CartesianPlane></Part>
+                 </Parts>
+                 */}
+        </Part>
+        <Part>
+          <Latex expression="y =  - x^{2}  +  6 x - 8" />
+          {/* #answer
+                   <Parts columns={1}>
+                   <Part><Latex expression="\left(0, -8 \right) " /></Part>
+                   <Part><Latex expression=" x = 3 " /></Part>
+                   <Part><Latex expression="\left( 3 ,  1 \right)" /></Part>
+                   <Part><CartesianPlane
+                 width={260}
+                 height={260}
+                 xAxis={{
+                   min: -8,
+                   max: 12,
+                   scale: 1,
+                   interval: 2,
+                   intervalSubdivisions: 2,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'x'
+                 }}
+                 yAxis={{
+                   min: -14,
+                   max: 6,
+                   scale: 1,
+                   interval: 2,
+                   intervalSubdivisions: 2,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'y'
+                 }}
+               >
+                 <FunctionPlot f={x => (x - 2) * (-1 * x + 4)} />
+               </CartesianPlane></Part>
+                   </Parts>
+                   */}
+        </Part>
+
+        <Part>
+          <Latex expression="y=2x^2+2x+9" />
+          {/* #answer
+                   <Parts columns={1}>
+                     <Part><Latex expression="\left(0, 9 \right) " /></Part>
+                     <Part><Latex expression=" x = -0.5 " /></Part>
+                     <Part><Latex expression="\left( -0.5 ,  8.5 \right)" /></Part>
+                     <Part>    <CartesianPlane
+                 width={260}
+                 height={260}
+                 xAxis={{
+                   min: -5,
+                   max: 5,
+                   scale: 1,
+                   interval: 1,
+                   intervalSubdivisions: 1,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'x'
+                 }}
+                 yAxis={{
+                   min: -2,
+                   max: 20,
+                   scale: 1,
+                   interval: 2,
+                   intervalSubdivisions: 2,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'y'
+                 }}
+               >
+                 <FunctionPlot f={x => 2 * x ** 2 + 2 * x + 9} />
+               </CartesianPlane> </Part>
+                   </Parts>
+                   */}
+        </Part>
+        <Part>
+          <Latex expression="y = 4x^{2} -64" />
+          {/* #answer
+                   <Parts columns={1}>
+                   <Part><Latex expression="\left(0, -64 \right) " /></Part>
+                   <Part><Latex expression=" x = 0 " /></Part>
+                   <Part><Latex expression="\left( 0 ,  - 64 \right)" /></Part>
+                     <Part>  <CartesianPlane
+                 width={260}
+                 height={260}
+                 xAxis={{
+                   min: -10,
+                   max: 10,
+                   scale: 1,
+                   interval: 2,
+                   intervalSubdivisions: 2,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'x'
+                 }}
+                 yAxis={{
+                   min: -80,
+                   max: 20,
+                   scale: 1,
+                   interval: 10,
+                   intervalSubdivisions: 5,
+                   unit: '',
+                   numberFormat: 'decimal',
+                   label: 'y'
+                 }}
+               >
+                 <FunctionPlot f={x => 4 * x ** 2 - 64} />
+               </CartesianPlane> </Part>
+                   </Parts>
+                   */}
+        </Part>
+        <Part>
+          <Latex expression="y=-\dfrac{1}{4}x^2+ \dfrac{3}{2}x " />
+          {/* #answer
+               <Parts columns={1}>
+                 <Part><Latex expression="\left(0, 0 \right) " /></Part>
+                 <Part><Latex expression=" x = 3 " /></Part>
+                 <Part><Latex expression="\left( 3 ,  2.25 \right)" /></Part>
+                 <Part> <CartesianPlane
+             width={260}
+             height={260}
+             xAxis={{
+               min: -10,
+               max: 10,
+               scale: 1,
+               interval: 2,
+               intervalSubdivisions: 2,
+               unit: '',
+               numberFormat: 'decimal',
+               label: 'x'
+             }}
+             yAxis={{
+               min: -10,
+               max: 5,
+               scale: 1,
+               interval: 1,
+               intervalSubdivisions: 1,
+               unit: '',
+               numberFormat: 'decimal',
+               label: 'y'
+             }}
+            >
+             <FunctionPlot f={x => -1 * 0.25 * x ** 2 + 1.5 * x} />
+            </CartesianPlane>  </Part>
+               </Parts>
+               */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.08 Standard form PROBLEM-SOLVING">
+    <Question
+      moveToNextPrintedPage
+      label="16"
+      conversionMetadata="54968 4189192545 2021-02-05"
+    >
+      <Text>
+        A frisbee is thrown upward and away from the top of a cliff that is{' '}
+        <Latex expression="240" /> metres above the ground. The height{' '}
+        <Latex expression="y" /> (in metres) of the frisbee at time{' '}
+        <Latex expression="x" /> (in seconds) is given by:{' '}
+        <Latex displayMode expression="y =  -  20 x^{2}  +  80 x + 240" />
+      </Text>
+      <TwoColumn>
+        <Column>
+          <Text>The graph of this relationship is shown.</Text>
+          <Parts columns={1}>
+            <Part>
+              <Text>
+                Identify and interpret the <Latex expression="y" />
+                -intercept of the graph.
+              </Text>
+
+              {/* #answer <Text>The <Latex expression="y" />-intercept is the height that the frisbee was thrown from. The frisbee was thrown from <Latex expression="240\text{ m}" />.</Text> */}
+            </Part>
+
+            <Part>
+              <Text>
+                Identify and interpret the <Latex expression="x" />
+                -intercept shown.
+              </Text>
+              {/* #answer 
+                <Text>The <Latex expression="x" />-intercept is the time it takes for the frisbee to reach the ground. The frisbee reaches the ground after <Latex expression="6" /> seconds.</Text> */}
+            </Part>
+
+            <Part>
+              <Text>
+                The frisbee reaches its maximum height after{' '}
+                <Latex expression="2" /> seconds. Determine the maximum height
+                reached by the frisbee.
+              </Text>
+
+              {/* #answer <Text><Latex expression="320\text{ m}" /></Text> */}
+            </Part>
+          </Parts>
+        </Column>
+        <Column>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: 0,
+              max: 7,
+              scale: 1,
+              interval: 1,
+              intervalSubdivisions: 5,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'x',
+            }}
+            yAxis={{
+              min: 0,
+              max: 400,
+              scale: 1,
+              interval: 50,
+              intervalSubdivisions: 5,
+              unit: '',
+              numberFormat: 'decimal',
+              label: 'y',
+            }}
+          >
+            <FunctionPlot f={(x) => -20 * x ** 2 + 80 * x + 240} />
+          </CartesianPlane>
+        </Column>
+      </TwoColumn>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.09 Solutions to quadratic FLUENCY">
+    <Question label="5">
+      <Text>For each function,</Text>
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>Sketch the graph.</Text>
+        </Part>
+        <Part label="ii">
+          <Text>
+            Use the graph to determine the solution(s) to the quadratic.
+          </Text>
+        </Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y= x^{2}" />
+
+          {/* #answer
+                               <Parts columns={1}>
+                                <Part label='i'>
+                                 <CartesianPlane
+                                     width={260}
+                                     height={260}
+                                     xAxis={{
+                                     min: -4,
+                                     max: 4,
+                                     scale: 1,
+                                     interval: 1,
+                                     intervalSubdivisions: 1,
+                                     unit: '',
+                                     numberFormat: 'decimal',
+                                     label: 'x'
+                                     }}
+                                     yAxis={{
+                                     min: -1,
+                                     max: 10,
+                                     scale: 1,
+                                     interval: 1,
+                                     intervalSubdivisions: 1,
+                                     unit: '',
+                                     numberFormat: 'decimal',
+                                     label: 'y'
+                                     }}
+                                     >
+                                     <FunctionPlot f={x =>  x ** 2 } />
+                                       </CartesianPlane>
+                                </Part>
+                                <Part label='ii'>
+                                <Latex expression="x=0" /></Part>
+                                </Parts>
+                               */}
+        </Part>
+
+        <Part>
+          <Latex expression="y = -4x^2" />
+          {/* #answer 
+                          <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -3,
+                                max: 5,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 2,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -5,
+                                max: 5,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                                         <FunctionPlot f={x => -4*x ** 2 } />
+                                  </CartesianPlane>
+                               </Part>
+                              
+                            <Part label='ii'>
+                               <Latex expression="x=0" /></Part>
+                               </Parts>
+             */}
+        </Part>
+        <Part>
+          <Latex expression="y=-{x}^2+9" />
+
+          {/* #answer 
+                               <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -4,
+                                max: 4,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -1,
+                                max: 10,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                                <FunctionPlot f={x =>  -1*x ** 2 + 9 } />
+                                  </CartesianPlane>
+                               </Part>
+                               <Part label='ii'>
+                               <Latex expression="x=3, x=-3" /></Part>
+                               </Parts>
+                               */}
+        </Part>
+
+        <Part>
+          <Latex expression="y=8-2x^2" />
+
+          {/* #answer
+             <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -4,
+                                max: 4,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 2,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -10,
+                                max: 10,
+                                scale: 1,
+                                interval: 2,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                               <FunctionPlot f={x => 8-2 * x ** 2 } />
+                                  </CartesianPlane>
+                               </Part>
+                               
+                            <Part label='ii'>
+                              
+                               <Latex expression="x=2, x=-2" /></Part>
+                               </Parts>
+             */}
+        </Part>
+
+        <Part>
+          <Latex expression="  3 x^{2} +3 = y" />
+          {/* #answer <Parts columns={1}>
+                                           <Part label='i'>
+                                         
+                                          <CartesianPlane
+                                       width={260}
+                                       height={260}
+                                       xAxis={{
+                                         min: -5,
+                                         max: 5,
+                                         scale: 1,
+                                         interval: 1,
+                                         intervalSubdivisions: 1,
+                                         unit: '',
+                                         numberFormat: 'decimal',
+                                         label: 'x'
+                                       }}
+                                       yAxis={{
+                                         min: -3,
+                                         max: 33,
+                                         scale: 1,
+                                         interval: 3,
+                                         intervalSubdivisions: 3,
+                                         unit: '',
+                                         numberFormat: 'decimal',
+                                         label: 'y'
+                                       }}
+                                     >
+                                       <FunctionPlot f={x => 3 * x ** 2 + 3} />
+                                     </CartesianPlane></Part>
+                                         <Part label='ii'>
+                               No real solutions</Part>
+                               </Parts>
+                                     */}
+        </Part>
+        <Part>
+          <Latex expression=" 3 x^{2}-3 = y" />
+          {/* #answer <Parts columns={1}>
+                              <Part label='i'>
+                                   
+                                        
+                                          <CartesianPlane
+                                            width={260}
+                                            height={260}
+                                            xAxis={{
+                                              min: -5,
+                                              max: 5,
+                                              scale: 1,
+                                              interval: 1,
+                                              intervalSubdivisions: 1,
+                                              unit: '',
+                                              numberFormat: 'decimal',
+                                              label: 'x'
+                                            }}
+                                          yAxis={{
+                                            min: -9,
+                                            max: 27,
+                                            scale: 1,
+                                            interval: 3,
+                                            intervalSubdivisions: 3,
+                                            unit: '',
+                                            numberFormat: 'decimal',
+                                            label: 'y'
+                                            }}
+                                          >
+                                        <FunctionPlot f={x => 3 * x ** 2 - 3} />
+                                        </CartesianPlane></Part>
+                                              <Part label='ii'>
+                               <Latex expression="x=1, x=-1" /></Part>
+                                           </Parts> */}
+        </Part>
+      </Parts>
+    </Question>
+
+    <Question linkedExamples={['1']} label="6">
+      <Text>For each function,</Text>
+      <Parts columns={1}>
+        <Part label="i">
+          <Text>Sketch the graph.</Text>
+        </Part>
+        <Part label="ii">
+          <Text>
+            Use the graph to determine the solution(s) to the quadratic.
+          </Text>
+        </Part>
+      </Parts>
+      <Parts columns={2}>
+        <Part>
+          <Latex expression="y=(x+1)^2." />
+
+          {/* #answer 
+                         <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -5,
+                                max: 3,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 2,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -2,
+                                max: 10,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                                         <FunctionPlot f={x => (x+1) ** 2 } />
+                                  </CartesianPlane>
+                               </Part>
+                              
+                            <Part label='ii'>
+                               <Latex expression="x=-1" /></Part>
+                               </Parts>
+                 */}
+        </Part>
+        <Part>
+          <Latex expression="y= -(x-3)^{2}" />
+
+          {/* #answer 
+                        <Parts columns={1}>
+                                <Part label='i'>
+                                 <CartesianPlane
+                                     width={260}
+                                     height={260}
+                                     xAxis={{
+                                     min: -3,
+                                     max: 8,
+                                     scale: 1,
+                                     interval: 1,
+                                     intervalSubdivisions: 1,
+                                     unit: '',
+                                     numberFormat: 'decimal',
+                                     label: 'x'
+                                     }}
+                                     yAxis={{
+                                     min: -10,
+                                     max: 2,
+                                     scale: 1,
+                                     interval: 1,
+                                     intervalSubdivisions: 1,
+                                     unit: '',
+                                     numberFormat: 'decimal',
+                                     label: 'y'
+                                     }}
+                                     >
+                                     <FunctionPlot f={x =>-1*(  x-3) ** 2 } />
+                                       </CartesianPlane>
+                                </Part>
+                                <Part label='ii'>
+                                <Latex expression="x=3" /></Part>
+                                </Parts>
+                       
+                       
+                        */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="y=\left(x+1\right)^2-9" />
+          </Text>
+
+          {/* #answer 
+                               <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -6,
+                                max: 6,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -11,
+                                max: 3,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                                <FunctionPlot f={x =>  (x +1)** 2 - 9 } />
+                                  </CartesianPlane>
+                               </Part>
+                               <Part label='ii'>
+                               <Latex expression="x=-4,\, x=2" /></Part>
+                               </Parts>*/}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="y=-\left(x-2\right)^2+4" />
+          </Text>
+
+          {/* #answer  
+             <Parts columns={1}>
+                              <Part label='i'>
+                                   
+                                        
+                                          <CartesianPlane
+                                            width={260}
+                                            height={260}
+                                            xAxis={{
+                                              min: -3,
+                                              max: 8,
+                                              scale: 1,
+                                              interval: 1,
+                                              intervalSubdivisions: 1,
+                                              unit: '',
+                                              numberFormat: 'decimal',
+                                              label: 'x'
+                                            }}
+                                          yAxis={{
+                                            min: -7,
+                                            max: 7,
+                                            scale: 1,
+                                            interval: 1,
+                                            intervalSubdivisions: 3,
+                                            unit: '',
+                                            numberFormat: 'decimal',
+                                            label: 'y'
+                                            }}
+                                          >
+                                        <FunctionPlot f={x => -1*( x-2) ** 2 + 4} />
+                                        </CartesianPlane></Part>
+                                              <Part label='ii'>
+                               <Latex expression="x=0, x=4" /></Part>
+                                           </Parts> */}
+        </Part>
+
+        <Part>
+          <Latex expression="y=5(x-2)^2" />
+
+          {/* #answer     <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -2,
+                                max: 6,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 2,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -4,
+                                max: 10,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                               <FunctionPlot f={x => 5 * (x-2) ** 2 } />
+                                  </CartesianPlane>
+                               </Part>
+                               
+                            <Part label='ii'>
+                              
+                               <Latex expression="x=2" /></Part>
+                               </Parts>
+                         */}
+        </Part>
+        <Part>
+          <Latex expression="y=2(x+4)^2+32" />
+
+          {/* #answer 
+             <Parts columns={1}>
+                               <Part label='i'>
+                               <CartesianPlane
+                                width={260}
+                                height={260}
+                                xAxis={{
+                                min: -10,
+                                max: 4,
+                                scale: 1,
+                                interval: 1,
+                                intervalSubdivisions: 2,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'x'
+                                }}
+                                yAxis={{
+                                min: -10,
+                                max: 40,
+                                scale: 1,
+                                interval: 4,
+                                intervalSubdivisions: 1,
+                                unit: '',
+                                numberFormat: 'decimal',
+                                label: 'y'
+                                }}
+                                >
+                               <FunctionPlot f={x => -2 * (x+4) ** 2 +32} />
+                                  </CartesianPlane>
+                               </Part>
+                               
+                            <Part label='ii'>
+                              
+                               <Latex expression="x=0, x=-8" /></Part>
+                               </Parts>
+                         */}
+        </Part>
+      </Parts>
+    </Question>
+
+    <Question linkedExamples={['2']} label="7">
+      <Text>
+        Consider the function <Latex expression="y=(x+5)(x-3)" />
+      </Text>
+      <Parts columns={1}>
+        <Part>
+          <Text>Sketch the graph of the function.</Text>
+          {/* #answer 
+            <CartesianPlane
+                width={260}
+                height={260} 
+                xAxis={{
+                  min: -7,
+                  max: 5,
+                  scale: 1,
+                  interval: 1,
+                  intervalSubdivisions: 1,
+                  unit: "",
+                  numberFormat: "decimal",
+                  label: "x",
+                }}  
+                yAxis={{
+                  min: -20,
+                  max: 5,
+                  scale: 1,
+                  interval: 2,
+                  intervalSubdivisions: 1,
+                  unit: "",
+                  numberFormat: "decimal",
+                  label: "y",
+                }}
+              >
+               <FunctionPlot f={x => (x+5)*(x-3)} /> 
+              </CartesianPlane>*/}
+        </Part>
+        <Part>
+          Determine the solution to the equation
+          {/* #answer
+            <Latex expression="x=-5,\,x=3" /> */}
+        </Part>
+      </Parts>
+    </Question>
+
+    <Question label="8" conversionMetadata="74109 1121966312 2020-09-14">
+      <Text>
+        Solve each equation by graphing using technology. Give your answer to
+        two decimal places.
+      </Text>
+
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="x^{2} -   4x  + 4= 0" />
+          </Text>
+
+          {/* #answer <Latex expression="x = 2.00" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="x^{2} +5x  +3= 0" />
+          </Text>
+
+          {/* #answer <Text><Latex expression="x\approx 0.70,\,x\approx -4.30" /></Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="2x^{2} -   2x  +1= 0" />
+          </Text>
+
+          {/* #answer No real solutions */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="4x^{2} +12 x  +1= 0" />
+          </Text>
+
+          {/* #answer <Latex expression="x \approx -0.09,\, x \approx -2.91" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="3x^{2} -   4x  + 2= 0" />
+          </Text>
+
+          {/* #answer <Text>No real solutions</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="2x^{2} +1.5  x  -1= 0" />
+          </Text>
+
+          {/* #answer <Latex expression="x \approx 0.43,\, x \approx 1.18" /> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup
+    title="	
+5.09 Solutions to quadratic PROBLEM-SOLVING"
+  >
+    <Question label="19" conversionMetadata="19781 831591780 2020-09-14">
+      <Text>
+        Jessie uses large sprinklers to water crops. The stream of water takes
+        the path of a parabola that reaches a maximum height of{' '}
+        <Latex expression="16.2 \text{ m}" /> above the ground,{' '}
+        <Latex expression="18 \text{ m}" /> from the sprinkler.
+      </Text>
+
+      <Text>
+        The path of water sprayed from the sprinkler is shown in the graph,
+        where <Latex expression="\left(0, 0\right)" /> is the position of the
+        sprinkler, <Latex expression="x" /> is the horizontal distance from the
+        sprinkler and <Latex expression="y" /> is the height above the ground.
+      </Text>
+
+      <TwoColumn>
+        <Column>
+          <Parts columns={1}>
+            <Part>
+              <Text>
+                In which form would it be easiest to write the equation of the
+                quadratic function, standard form or turning point form? Explain
+                your answer.
+              </Text>
+              {/* #answer <Text>We know the distance at which the sprinkler reaches its greatest height, which means we can easily determine the turning point of the resulting graph. This means that turning point form will be the most efficient to write.</Text> */}{' '}
+            </Part>
+
+            <Part>
+              <Text>
+                Write the quadratic function for the path of the water.
+              </Text>
+              {/* #answer <Latex expression="y =  -  \dfrac{1}{20} \left(x - 18\right)^{2}  + 16.2" /> */}
+            </Part>
+
+            <Part>
+              <Text>
+                State the solutions of the quadratic equation.
+                {/* #answer <Latex expression="x=0, x=36" /> */}
+              </Text>
+            </Part>
+            <Part>
+              <Text>
+                Jessie wants to adjust the sprinkler so that it reaches a
+                maximum height of <Latex expression="10 \text{ m}" /> above the
+                ground, <Latex expression="40 \text{ m}" /> from the sprinkler.
+                What is the quadratic function that Jessie should use?{' '}
+              </Text>
+              {/* #answer <Latex expression="y =  -  \dfrac{1}{40} \left(x - 20\right)^{2}  + 10" /> */}
+            </Part>
+          </Parts>
+        </Column>
+        <Column>
+          <CartesianPlane
+            width={260}
+            height={260}
+            xAxis={{
+              min: 0,
+              max: 40,
+              scale: 1,
+              interval: 5,
+              intervalSubdivisions: 5,
+              unit: '',
+              numberFormat: 'decimal',
+            }}
+            yAxis={{
+              min: 0,
+              max: 18,
+              scale: 1,
+              interval: 2,
+              intervalSubdivisions: 2,
+              unit: '',
+              numberFormat: 'decimal',
+            }}
+          >
+            <FunctionPlot f={(x) => (x * (2 * 18 - x)) / 20} />
+          </CartesianPlane>
+        </Column>
+      </TwoColumn>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.10 Solve algebraically FLUENCY">
+    <Question label="5" conversionMetadata="68172 3170430752 2020-05-17">
+      <Text>Solve:</Text>
+      <Parts columns={4}>
+        <Part>
+          <Text>
+            <Latex expression="x^{2} = 2" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm \sqrt{2} " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x^{2} = 25" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="x^{2} = 121" />
+          </Text>
+
+          {/* #answer <Latex expression="x = \pm 11 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x^{2} = 294" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm 7 \sqrt{6}" />*/}
+        </Part>
+      </Parts>
+    </Question>
+    <Question
+      linkedExamples={['1']}
+      label="6"
+      conversionMetadata="68172 3170430752 2020-05-17"
+    >
+      <Text>Solve:</Text>
+      <Parts columns={4}>
+        <Part>
+          <Text>
+            <Latex expression="4 y^{2} = 100" />
+          </Text>
+
+          {/* #answer <Latex expression="y = \pm 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="25 y^{2} = 36" />
+          </Text>
+          {/* #answer <Latex expression="y = \pm \dfrac{6}{5} " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="-  3 k^{2}  =  - 12" />
+          </Text>
+          {/* #answer <Latex expression="k = \pm 2 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x^{2} - 121 = 0" />
+          </Text>
+
+          {/* #answer <Latex expression="x = \pm 11 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x^{2} - 10 = 15" />
+          </Text>
+
+          {/* #answer <Latex expression="x = \pm 5" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\dfrac{x^{2}}{16} - 2 = 2" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm 8" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\dfrac{x^{2}}{25} - 3 = 6" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm 15" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\dfrac{x^{2}}{10} - 4 = 6" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm 10" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="81 k^{2} + 8 = 24" />
+          </Text>
+          {/* #answer <Latex expression="k =\pm \dfrac{4}{9} " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="-  25 v^{2}  + 64 = 0" />
+          </Text>
+          {/* #answer <Latex expression="v = \pm \dfrac{8}{5} " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="81 x^{2} - 16 = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm \dfrac{4}{9}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="9 x^{2} - 4 = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \pm \dfrac{2}{3}" /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question
+      linkedExamples={['2']}
+      label="7"
+      conversionMetadata="68197 3117215334 2020-05-21"
+    >
+      <Text>Solve:</Text>
+
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="\left(x - 3\right)^{2} = 64" />
+          </Text>
+          {/* #answer <Latex expression="x = 11\,,- 5 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left(x - 6\right)^{2} = 2" />
+          </Text>
+          {/* #answer <Latex expression="x = 6 \pm \sqrt{2}" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left(2 - x\right)^{2} = 81" />
+          </Text>
+          {/* #answer <Latex expression="x =  - 7\,,11" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left(x - 7\right)^{2} = 81" />
+          </Text>
+          {/* #answer <Latex expression="x = 16\,,- 2 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left(7 - x\right)^{2} = 81" />
+          </Text>
+          {/* #answer <Latex expression="x =  - 2\,,16" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left( 8 x + 9\right)^{2} = 256" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{7}{8}\,,-\dfrac{25}{8} " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left(x + 3\right)^{2} = 49" />
+          </Text>
+          {/* #answer <Latex expression="x = 4\,,- 10 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left( 10 x - 9\right)^{2} = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{9}{10}" /> */}
+        </Part>
+
+        <Part>
+          <Latex expression="\left( 4 x - 9\right)^{2} = 0" />
+          {/* #answer <Latex expression="x = \dfrac{9}{4}" /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="\left( - 3  +  7 x\right)^{2} = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{3}{7}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left(3y + 9\right)^{2} = 100" />
+          </Text>
+          {/* #answer <Latex expression="y = \dfrac{1}{3}\,,\dfrac{-19}{3} " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left(5y - 9\right)^{2} = 25" />
+          </Text>
+          {/* #answer <Latex expression="y = \dfrac{14}{5}\,,\dfrac{4}{5} " /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="8">
+      <Text> Find the solution(s) to these quadratics:</Text>
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="y=x(x+7)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,-7" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=(2x-9)" />
+          </Text>
+          {/* #answer <Latex expression="x =  \dfrac{9}{2}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=4x(x+5)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,-5" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y= -3x(2x+6)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,-3" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=\dfrac{x}{2}(x+5)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,-5" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y= 0.4x (1.8x -7.3)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,\dfrac{73}{18}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=  -x(x-5)" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,5" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=\dfrac{ x(x+1) }{2}" />
+          </Text>
+          {/* #answer <Latex expression="x =  0\,,-1" /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="9">
+      <Text> Find the solution(s) to these quadratics:</Text>
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="y=(x-5)(x+7)" />
+          </Text>
+          {/* #answer <Latex expression="x =  5\,,-7" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y= (x+1)^2" />
+          </Text>
+          {/* #answer <Latex expression="x =  -1" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=(2x+4)(x-5)" />
+          </Text>
+          {/* #answer <Latex expression="x =  -2\,,5" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y= (-3x-12)(x-1)" />
+          </Text>
+          {/* #answer <Latex expression="x =  -4\,,1" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=\dfrac{3}{4}(x+5)(x-10)" />
+          </Text>
+          {/* #answer <Latex expression="x =  -5\,,10" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y= (8x − 5)(3x − 7)" />
+          </Text>
+          {/* #answer <Latex expression="x =  \dfrac{5}{8}\,,\dfrac{7}{3}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=  (3x + 8)(5x − 7) " />
+          </Text>
+          {/* #answer <Latex expression="x =  -\dfrac{8}{3}\,,\dfrac{7}{5}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=(3x − 17)(2x − d)" />
+          </Text>
+          {/* #answer <Latex expression="x =  \dfrac{17}{3}\,,\dfrac{d}{2}" /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question
+      linkedExamples={['3']}
+      label="10"
+      conversionMetadata="68197 3117215334 2020-05-21"
+    >
+      <Text>Solve:</Text>
+
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="y=-2\left(x - 3\right)^{2}+8 " />
+          </Text>
+          {/* #answer <Latex expression="x = 1, 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=4\left(x + 1\right)^{2}-16 " />
+          </Text>
+          {/* #answer <Latex expression="x = -3, 1 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="y=5\left(x - 2\right)^{2}-100 " />
+          </Text>
+          {/* #answer <Latex expression="x = 1, 5 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="y=4\left(x - 6\right)^{2}-36 " />
+          </Text>
+          {/* #answer <Latex expression="x = 3, 9 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=6\left(x - 4\right)^{2}-24 " />
+          </Text>
+          {/* #answer <Latex expression="x = 2, 6 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="y=-7\left(x - 2\right)^{2}+700 " />
+          </Text>
+          {/* #answer <Latex expression="x = -8, 12 " /> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup
+    title="	
+5.10 Solve algebraically PROBLEM SOLVING"
+  >
+    <Question label="21">
+      <Text>
+        A stone is thrown up and into a river, and its height (in metres) above
+        the water can be modelled by the equation{' '}
+        <Latex expression="h=3.2(t-0.44)^2+1.61" />, where{' '}
+        <Latex expression="t" /> represents the time (in seconds) after the
+        stone is thrown.
+      </Text>
+
+      <Parts columns={1}>
+        <Part>
+          <Text>What was the height at the time it was thrown?</Text>
+          {/* #answer <Text><Latex expression="h=1" /> metre</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            At what times will the stone be at the same height above the water
+            as it was when it was thrown?
+          </Text>
+          {/* #answer <Text> The stone will be at the same height above the water as it was when it was thrown at <Latex expression="t=0" /> (when it was thrown) and <Latex expression="t \approx 0.88" /> seconds (when it starts falling back down).</Text> */}
+        </Part>
+        <Part>
+          <Text>
+            If the ratio of the horizontal distance to the time it takes to
+            reach the water is <Latex expression="5:3" />, what is the
+            horizontal distance the stone travels before hitting the water?
+          </Text>
+          {/* #answer <Text> <Latex expression="1.916" /> metres</Text> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.11 Solve by factorisation FLUENCY">
+    <Question
+      label="4"
+      linkedExamples={['1']}
+      conversionMetadata="68176 1999927376 2020-05-17"
+    >
+      <Text>Solve using the Null Factor Law:</Text>
+
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="x \left(x + 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 0\,,- 7 " /> */}
+        </Part>
+
+        <Part>
+          <Text>
+            <Latex expression="x \left( 2 x - 9\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 0\,,\dfrac{9}{2}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="4 m \left(m + 5\right) = 0" />
+          </Text>
+
+          {/* #answer <Latex expression="m = 0\,, - 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\dfrac{m}{2} \left(m + 5\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="m = 0\,, - 5 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="b \left( 10 b - 90\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="b = 0\,, 9" /> */}
+        </Part>
+      </Parts>
+    </Question>
+    <Question label="5" linkedExamples={['2']}>
+      <Text>Solve using the Null Factor Law:</Text>
+      <Parts columns={2}>
+        <Part>
+          <Text>
+            <Latex expression="\left(x - 5\right) \left(x + 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = 5\,,- 7 " /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 8 x - 5\right) \left( 3 x - 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{5}{8}\,, \dfrac{7}{3}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 3 x + 8\right) \left( 5 x - 7\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x =  - \dfrac{8}{3}\,,\dfrac{7}{5}" /> */}
+        </Part>
+        <Part>
+          <Text>
+            <Latex expression="\left( 3 x - 17\right) \left( 2 x - d\right) = 0" />
+          </Text>
+          {/* #answer <Latex expression="x = \dfrac{17}{3}\,,\dfrac{d}{2} " /> */}
+        </Part>
+      </Parts>
+    </Question>
+  </QuestionsGroup>
+
+  <QuestionsGroup title="5.11 Solve by factorisation REASONING">
+    <Question label="13">
+      <Text>
+        Explain why the quadratic equation cannot be factorised using integers.
+      </Text>
+      <Latex displayMode expression="x^2 - 4x + 5=0" />
+
+      {/* #answer <Text>
+                          The quadratic equation cannot be factorised using integers because there
+                          are no two integers that multiply to <Latex expression="5" /> and add to{' '}
+                          <Latex expression="-4" />.
+                         </Text> */}
+    </Question>
+    {/* Added */}
+    <Question label="14">
+      <Text>
+        Identify the error in the factoring attempt and explain the correct
+        approach.
+      </Text>
+      <AlgebraicWorking useRowNumbering>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement lhs="x^2 + 5x + 6" relation="=" rhs="0" />
+        </AlgebraicWorkingRow>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement
+            lhs="(x + 1)(x + 5)"
+            relation="="
+            rhs="0"
+          />
+          <AlgebraicWorkingExplanation>Factorise</AlgebraicWorkingExplanation>
+        </AlgebraicWorkingRow>
+        <AlgebraicWorkingRow>
+          <AlgebraicWorkingStatement lhs="x" relation="=" rhs="-5,-1" />
+          <AlgebraicWorkingExplanation>
+            Solve for <Latex expression="x" />
+          </AlgebraicWorkingExplanation>
+        </AlgebraicWorkingRow>
+      </AlgebraicWorking>
+      {/* #answer   <Text>
+                         The error is in Step 2. The correct factoring should be{' '}
+                          <Latex expression="(x + 2)(x + 3)" />. The numbers in the factors must add to 5 and multiply to 6, not the other way around.
+                         </Text> */}
+    </Question>
+  </QuestionsGroup>
+</TopicAssessment>;
